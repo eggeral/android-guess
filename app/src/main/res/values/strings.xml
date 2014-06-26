@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Schätzspiel</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_activity_guess_detail">Schätzung</string>
+    <string name="add_item">hinzufügen</string>
+    <string name="action_delete">löschen</string>
+    <string name="action_cancel">verwerfen</string>
+    <string name="action_result">Ergebnis</string>
+    <string name="title_activity_result">Ergebnis</string>
+    <string name="action_backup">Backup</string>
+    <string name="done">Fertig</string>
+    <string name="pref_sort_order">Sortierung</string>
+
+</resources>

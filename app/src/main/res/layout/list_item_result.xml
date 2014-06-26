@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <TextView
+            android:ems="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="100"
+            android:gravity="right"
+            android:id="@+id/listItemPosition"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+            android:ems="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Maximilian Mustermann"
+            android:id="@+id/listItemName"
+            android:layout_toRightOf="@id/listItemPosition"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+            android:ems="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9999"
+            android:id="@+id/listItemDiff"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+            android:ems="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1000"
+            android:gravity="right"
+            android:layout_toLeftOf="@id/listItemDiff"
+            android:id="@+id/listItemGuess"/>
+
+    <TextView
+            android:ems="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1a"
+            android:id="@+id/listItemGrade"
+            android:gravity="right"
+            android:layout_toLeftOf="@id/listItemGuess"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+</RelativeLayout>
